@@ -1,0 +1,20 @@
+{
+  "name": "typescript-test",
+  "version": "1.0.0",
+  "description": "coding test of typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "check-string": "node src/check-string.js",
+    "convert-array": "node src/convert-array.js",
+    "get-issue-titles": "node src/get-issue-titles.js",
+    "get-issue-titles:asc": "node src/get-issue-titles.js asc",
+    "get-issue-titles:desc": "node src/get-issue-titles.js desc"
+  },
+  "author": "21kilometers",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "typescript": "^3.8.3"
+  }
+}
